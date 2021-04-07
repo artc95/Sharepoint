@@ -25,3 +25,5 @@ e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/s
   
   - Apply site template to site: Invoke-PnPSiteTemplate  
   e.g. Invoke-PnPSiteTemplate -Path "C:\Users\artc\Desktop\template.pnp"
+  
+- Create new subsite under current site: New-PnPWeb
