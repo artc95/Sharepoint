@@ -2,6 +2,8 @@ PnP Powershell Documentation: https://pnp.github.io/powershell/cmdlets/Add-PnPAl
 
 "Save Site as Template" Tutorial https://spgeeks.devoworx.com/missing-save-site-as-template-sharepoint-online/#whats-the-save-site-as-template-in-sharepoint
 
+Change PnP Management Shell Permissions at https://myapps.microsoft.com
+
 
 <h1>CMDLETS</h1>
 Login to Sharepoint: Connect-PnPOnline -Url "sharepoint site url" -Interactive
