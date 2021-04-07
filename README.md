@@ -9,5 +9,6 @@ Change PnP Management Shell Permissions at https://myapps.microsoft.com
 Login to Sharepoint: Connect-PnPOnline -Url "sharepoint site url" -Interactive
 
 Get Site Template: Get-PnPSiteTemplate -Out "file path"
+e.g. Get-PnPSiteTemplate -Out "C:\Users\artc\Desktop\template.pnp"   
 
 
