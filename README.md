@@ -20,5 +20,8 @@ e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/s
   - Get timezone IDs: Get-PnPTimeZoneId  
   e.g. 21 = Singapore UTC +8
 
-  - Get available classic web templates: Get-PnPWebTemplates
+  - Get available classic web templates: Get-PnPWebTemplates  
   e.g. STS#3 = Team Site (no Microsoft 365 group)
+  
+  - Apply site template to site: Invoke-PnPSiteTemplate  
+  e.g. Invoke-PnPSiteTemplate -Path "C:\Users\artc\Desktop\template.pnp"
