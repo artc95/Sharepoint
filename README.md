@@ -6,10 +6,13 @@ Change PnP Management Shell Permissions at https://myapps.microsoft.com
 
 
 <h1>CMDLETS</h1>
-Login to Sharepoint: Connect-PnPOnline -Url "sharepoint site url" -Interactive  
+Login to Sharepoint: Connect-PnPOnline -Url "sharepoint site url" -Interactive
 
 
 Get Site Template: Get-PnPSiteTemplate -Out "file path"  
-e.g. Get-PnPSiteTemplate -Out "C:\Users\artc\Desktop\template.pnp"   
+e.g. Get-PnPSiteTemplate -Out "C:\Users\artc\Desktop\template.pnp"
+
+Get Timezone IDs: Get-PnPTimeZoneId
+e.g. 21 = Singapore UTC +8
 
 
