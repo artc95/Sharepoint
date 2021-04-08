@@ -4,7 +4,7 @@
 - "Save Site as Template" Tutorial https://spgeeks.devoworx.com/missing-save-site-as-template-sharepoint-online/#whats-the-save-site-as-template-in-sharepoint
 
 - Change PnP Management Shell Permissions at https://myapps.microsoft.com
--
+
 - Set Variables  
 e.g. $template = "boo"
 
