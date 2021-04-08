@@ -1,11 +1,11 @@
-<h1>Powershell - General</h1>  
-PnP Powershell Documentation: https://pnp.github.io/powershell/cmdlets/Add-PnPAlert.html
+<h1>Powershell - General</h1>
+- PnP Powershell Documentation: https://pnp.github.io/powershell/cmdlets/Add-PnPAlert.html
 
-"Save Site as Template" Tutorial https://spgeeks.devoworx.com/missing-save-site-as-template-sharepoint-online/#whats-the-save-site-as-template-in-sharepoint
+- "Save Site as Template" Tutorial https://spgeeks.devoworx.com/missing-save-site-as-template-sharepoint-online/#whats-the-save-site-as-template-in-sharepoint
 
-Change PnP Management Shell Permissions at https://myapps.microsoft.com
-
-Set Variables  
+- Change PnP Management Shell Permissions at https://myapps.microsoft.com
+-
+- Set Variables  
 e.g. $template = "boo"
 
 
