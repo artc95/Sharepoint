@@ -31,7 +31,7 @@ e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/s
   - Apply site template to site: Invoke-PnPSiteTemplate  
   e.g. Invoke-PnPSiteTemplate -Path "C:\Users\artc\Desktop\template.pnp"
   
-  - Change permissions: Set-PnPWebPermission
+  - Change permissions: Set-PnPWebPermission 
   e.g. Set-PnPWebPermission -User "xx@xx.com" -AddRole "Full Control" -Identity relativeurl
   
 - Create new subsite under current site: New-PnPWeb
