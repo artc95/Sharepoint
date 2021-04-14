@@ -19,8 +19,9 @@ e.g. $template = "boo"
 - Get Site Template: Get-PnPSiteTemplate -Out "file path"  
 e.g. Get-PnPSiteTemplate -Out "C:\Users\artc\Desktop\template.pnp"
 
-- Create new (classic) site: New-PnPTenantSite  
-e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/sites/arthurclient_SG" -Owner arthur.chionh@xxx.com -TimeZone 21 -Template STS#3
+- Create new (classic) site: New-PnPTenantSite OR Create new subsite under current site: New-PnPWeb  
+e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/sites/arthurclient_SG" -Owner arthur.chionh@xxx.com -TimeZone 21 -Template STS#3  
+OR e.g. New-PnPWeb -Title "Name" -Url Name -Template "STS#3" -BreakInheritance
 
   - Get timezone IDs: Get-PnPTimeZoneId  
   e.g. 21 = Singapore UTC +8
@@ -33,5 +34,3 @@ e.g. New-PnPTenantSite -Title arthurclient_SG -Url "https://xxx.sharepoint.com/s
   
   - Change permissions: Set-PnPWebPermission  
   e.g. Set-PnPWebPermission -User "xx@xx.com" -AddRole "Full Control" -Identity relativeurl
-  
-- Create new subsite under current site: New-PnPWeb
