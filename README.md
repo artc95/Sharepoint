@@ -11,6 +11,8 @@ e.g. $template = "boo"
 
 - Avoid error "format-default : The collection has not been initialized. It has not been requested or the request has not been executed. It may need to be explicitly requested." by running cmdlet as variable https://sympmarc.com/2020/04/24/an-inconvenient-powershell-error-format-default-the-collection-has-not-been-initialized/
 
+- Upload local folder to Sharepoint https://www.kalmstrom.com/Tips/PowerShell-SharePoint/120-Upload-Files-PowerShell-SharePoint.htm
+
 
 <h1>CMDLETS</h1>
 
